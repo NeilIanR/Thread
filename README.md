@@ -7,6 +7,7 @@ A lightweight utility for creating chainable tasks.
 
 # Example
 
+```lua
 local thread = require(path.to.thread)
 
 thread:spawn(function()
@@ -14,3 +15,4 @@ thread:spawn(function()
 end):wait(1):delay(4)
     print("5 seconds has passed")
 end):start()
+```
