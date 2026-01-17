@@ -3,7 +3,7 @@ A lightweight utility for creating chainable tasks.
 
 # How to use
 - Require the script: local thread = require(path.to.thread)
-- Create and start a thread: ```lua thread.new():spawn(function() end):start()```
+- Create and start a thread: ```thread.new():spawn(function() end):start()```
 
 # Example
 
