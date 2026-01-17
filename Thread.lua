@@ -62,4 +62,5 @@ function Thread:start<T>(): _Thread<T>
 	return self;
 end
 
+
 return Thread;
